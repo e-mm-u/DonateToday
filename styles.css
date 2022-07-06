@@ -1,0 +1,295 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arima', 'cursive';
+}
+
+.text h1{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+
+}
+.text p{
+    font-size: 20px;
+    color: gray;
+
+}
+
+/* -------top banner ---------- */
+.background-image{
+    position: relative;
+    /* background-image: url(./images/donation13.jpg); */
+    background-image:
+        linear-gradient(to bottom, rgba(143, 42, 50, 0.425), rgba(14, 12, 12, 0.863)),
+        url('./images/donation13.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.overlays{
+    position: absolute;
+    text-align: center;  
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+}
+
+.overlays h1{
+    color: white;
+    font-size: 60px;
+    /* font-weight: 2000; */
+    padding: 1%;
+  
+} 
+.overlays p{
+    color: white;
+    font-weight: 200;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+   
+}
+
+.btn{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    /* text-align: center; */
+    font-size: large;
+    font-weight: 500;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px;
+
+}
+
+/* ---------------donate today----------- */
+
+.donate-today{
+    position: relative;
+    /* text-align: center; */
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 10% ;
+    padding-bottom: 7%;
+
+}
+
+.donate-today p{
+    font-size: 20px;
+    color: gray;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+
+.amount-btn{
+    color: gray;
+    background-color: rgba(243, 243, 243, 0.555);
+    font-size: 30px;
+    font-weight: 800;
+    height: 400px;
+    width: 1000px;
+    padding: 20px;
+    text-decoration: none;
+}
+.selected-btn{
+    border: 1px solid crimson;
+    border-radius: 5px;
+    color: crimson;
+    background-color: rgba(252, 175, 190, 0.315);
+  
+}
+.input{
+    padding-top: 10%;
+    width : 50%;
+    border: 0;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+/* -------------Our plans -----------------------*/
+.our-donate-plans .text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.plans{
+    display: flex;
+    justify-content: space-between ;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+    
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top : 20px;
+    margin-bottom: 30px;
+
+}
+.plans h1{
+    font-size: 25px;
+    text-align: left;
+}
+.plans p{
+    font-size: 15px;
+    text-align: left;
+    color: gray;
+
+}
+.food{
+    background-color:rgba(153, 20, 179, 0.1) ;
+    padding: 2%;
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+}
+.shelter{
+    background-color:rgba(10, 85, 39, 0.1);
+    padding: 2%;
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+}
+.education{
+    background-color:rgba(42, 8, 73, 0.1) ;
+    padding: 2%;
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+}
+.plans img{
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
+/* ---------------------------POST---------------------------------------- */
+.post{
+    display: flex;
+    justify-content: space-evenly;
+   
+    height: 80vh;
+    width: 100wh;    
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.post h1{
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+}
+.post p{
+    font-size: 15px;
+    text-align: left;
+    color: gray;
+    padding: 20px;
+}
+.post a{
+    margin-left: 20px;
+}
+.post .btn{
+    float: left;
+
+}
+.half-post-one{
+    width: 50%;
+    float: left;
+}
+
+.half-post-one-pic{
+    width: 50%;
+    float: right;
+}
+.half-post-one-pic img{
+    height: 300px;
+    width: 500px;
+}
+.half-post-two{
+    width: 50%;
+    float: right;
+}
+.half-post-two-pic{
+    width: 50%;
+    float: left;
+}
+.half-post-two-pic img{
+    height: 300px;
+    width: 500px;
+}
+/* ----------------Get My updates --------------------------- */
+
+.get-My-updates{
+    height: 80vh;
+    width: 100vw;   
+    
+}
+.get-My-updates .text {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.get-My-updates .text h1{
+    font-size: 40px;
+}
+.get-My-updates .text p{
+    font-size: 15px;
+}
+::placeholder{
+    text-align: left;
+    padding-left: 10px;
+}
+.subscribe-back{
+    display: flex;
+    background-color:rgba(16, 146, 124, 0.103);
+    height: 30%;
+    width: 50%;
+    margin: 20px auto;
+    padding-top: 50px;
+    
+}
+.subscribe{
+    margin: auto;
+
+}
+.subs-btn{
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    padding: 10px 15px 10px 15px ;
+    border-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.mail{
+    height: 46px;
+    width: 400px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0;
+    border-color: transparent;
+}
+
+/* ----------------------------FOOTER--------------------------------------- */
+footer{
+    background-color: black;
+    color: white;
+    /* text-align: center; */
+}
+footer h1{
+    color: crimson;
+    font-size: 30px;
+    font-weight: 1200;
+    padding-top: 3%;
+}
+footer p{
+    font-size: 12px;
+    padding-bottom: 3%;
+}
